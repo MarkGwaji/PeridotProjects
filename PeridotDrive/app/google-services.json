@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "391997853175",
+    "firebase_url": "https://peridot-drive.firebaseio.com",
+    "project_id": "peridot-drive",
+    "storage_bucket": "peridot-drive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391997853175:android:7eb181d23d7273e79e72f2",
+        "android_client_info": {
+          "package_name": "com.example.peridotdrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391997853175-jpje3m1vls272fb56muil283v51gv66e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.peridotdrive",
+            "certificate_hash": "e34df5c35676aed13b4a780caa66e5b5a2ad5dd2"
+          }
+        },
+        {
+          "client_id": "391997853175-mv4esmo2hhm7vcf5bb9osauj7g137hpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBFUdfKrkNcGbdZF9M0ZO156HyNG0LkKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391997853175-mv4esmo2hhm7vcf5bb9osauj7g137hpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
