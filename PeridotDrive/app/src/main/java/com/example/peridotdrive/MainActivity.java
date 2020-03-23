@@ -8,18 +8,17 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button nDriver, nCustomer;
-
+    private Button mDriver, mCustomer;
+    private boolean mLocationPermissionGranted = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nDriver = (Button) findViewById(R.id.driver);
-        nCustomer = (Button) findViewById(R.id.customer);
+        mDriver = (Button) findViewById(R.id.driver);
+        mCustomer = (Button) findViewById(R.id.customer);
 
-        nDriver.setOnClickListener(new View.OnClickListener() {
+        mDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DriverLoginActivity.class);
@@ -29,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        nCustomer.setOnClickListener(new View.OnClickListener() {
+
+        mCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CustomerLoginActivity.class);
